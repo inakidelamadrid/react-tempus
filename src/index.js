@@ -1,6 +1,7 @@
-import React from 'react'
 import './sass/react-tempus.scss'
+import './fa-library'
 
-export const ExampleComponent = ({ text }) => {
-  return <div>Example Component: {text}</div>
-}
+import AmPmSwitch from './components/AmPmSwitch'
+import TimePicker from './components/TimePicker'
+
+export { AmPmSwitch, TimePicker }
