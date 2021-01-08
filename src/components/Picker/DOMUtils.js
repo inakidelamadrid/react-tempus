@@ -1,4 +1,4 @@
-import { TOP, BOTTOM } from './Picker'
+import { TOP, BOTTOM } from './constants'
 
 const convertPx = (value) => `${value}px`
 /**

@@ -2,13 +2,11 @@ import React, { useEffect, useState, useRef, useCallback } from 'react'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
 import noop from 'lodash/noop'
-//import styles from './styles.module.scss'
+// import styles from './styles.module.scss'
 
 import Backdrop from '../Backdrop'
 import { getDivPosition, getDomHeight } from './DOMUtils'
-
-export const TOP = 0
-export const BOTTOM = 1
+import { TOP } from './constants'
 
 const propTypes = {
   className: PropTypes.string,

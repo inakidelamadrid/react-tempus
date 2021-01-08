@@ -1,4 +1,5 @@
-import Picker, { TOP, BOTTOM } from './Picker'
+import Picker from './Picker'
+import { TOP, BOTTOM } from './constants'
 
 export { TOP, BOTTOM }
 export default Picker
