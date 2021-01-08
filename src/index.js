@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './styles.module.css'
+import './sass/react-tempus.scss'
 
 export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+  return <div>Example Component: {text}</div>
 }
